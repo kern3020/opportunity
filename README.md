@@ -8,11 +8,11 @@ Installation
 
 You can check out the source code from https://github.com/kern3020/opportunity.git.
 
-You'll need a database. I'm using Postgres. On ubuntu 12.04 LTS. 
+You'll need a database. I'm using Postgres. On ubuntu 14.04 LTS. 
 
        sudo apt-get install postgresql
        sudo apt-get install pgadmin3
-       sudo apt-get install postgresql-server-dev-9.1
+       sudo apt-get install postgresql-server-dev-9.3
        sudo apt-get install python-dev
 
 If you want to use a different database, it should be straight
@@ -24,7 +24,7 @@ these python modules.
 
       sudo pip install -r requirements.txt 
 
-To populate the database....      
+To populate the database.... 
 
 	./manage.py syncdb 
 	./manage.py migrate tracker
