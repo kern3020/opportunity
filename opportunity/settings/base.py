@@ -141,7 +141,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'opportunity.tracker',
-    'south',
 )
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
